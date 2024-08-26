@@ -20,7 +20,7 @@ const { title, description, ogImage } = Astro.props
   </head>
   <body class="min-h-screen bg-background font-sans antialiased">
     <div class="flex flex-col items-center justify-center">
-      <Header />
+      <Header title={title} />
       <slot />
       <Footer />
     </div>

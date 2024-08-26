@@ -9,13 +9,6 @@ This template helps you build a portfolio using Astro, Tailwind CSS, and Shadcn 
 ![View 1](public/View1.png)
 ![View 2](public/View2.png)
 
-## Inspiration
-
-This project was inspired by several outstanding portfolios. Here are some that served as references:
-
-- [Gianmarco Portfolio](https://gianmarco.xyz/)
-- [Vitesse Portfolio](https://astro-theme-vitesse.netlify.app/)
-- [Gurido Portfolio](https://gurido.vercel.app/)
 
 ## Technologies Used
 

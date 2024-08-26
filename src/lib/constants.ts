@@ -15,36 +15,10 @@ export const LINKS = {
   discord: 'https://discordapp.com/users/163300027618295808',
 }
 
-// Global
-export const SITE: Site = {
-  TITLE: 'Astro Sphere',
-  DESCRIPTION:
-    'Welcome to Astro Sphere, a portfolio and blog for designers and developers.',
-  AUTHOR: 'Mark Horn',
-}
-
 // Work Page
 export const WORK: Page = {
   TITLE: 'Work',
   DESCRIPTION: 'Places I have worked.',
-}
-
-// Blog Page
-export const BLOG: Page = {
-  TITLE: 'Blog',
-  DESCRIPTION: 'Writing on topics I am passionate about.',
-}
-
-// Projects Page
-export const PROJECTS: Page = {
-  TITLE: 'Projects',
-  DESCRIPTION: 'Recent projects I have worked on.',
-}
-
-// Search Page
-export const SEARCH: Page = {
-  TITLE: 'Search',
-  DESCRIPTION: 'Search all posts and projects by keyword.',
 }
 
 // Study Page
@@ -156,5 +130,26 @@ export const EXPERIENCE = [
       'Creation of the Bookii page in Spanish and change of texts in cms',
       'Generation of static posts using Gatsby and the Contentful cms for the Bookii blog',
     ],
+  },
+]
+
+export const PROJECTS = [
+  {
+    name: 'asd',
+    description: 'asdas',
+    img: 'https://lh3.googleusercontent.com/BbZ8h3M2bBQrBx45U_9-2aR2UO1JirdXlDfyjlXrVOUgEX3-O3b0_UkKaVUfv40tGmZ1bzieQx3m7MR7I71lyiQF=s1280-w1280-h800',
+    website: 'EntryFieldTypes.EntryResourceLink<any>',
+  },
+  {
+    name: 'asd',
+    description: 'asdas',
+    img: 'https://lh3.googleusercontent.com/BbZ8h3M2bBQrBx45U_9-2aR2UO1JirdXlDfyjlXrVOUgEX3-O3b0_UkKaVUfv40tGmZ1bzieQx3m7MR7I71lyiQF=s1280-w1280-h800',
+    website: 'EntryFieldTypes.EntryResourceLink<any>',
+  },
+  {
+    name: 'asd',
+    description: 'asdas',
+    img: 'https://lh3.googleusercontent.com/BbZ8h3M2bBQrBx45U_9-2aR2UO1JirdXlDfyjlXrVOUgEX3-O3b0_UkKaVUfv40tGmZ1bzieQx3m7MR7I71lyiQF=s1280-w1280-h800',
+    website: 'EntryFieldTypes.EntryResourceLink<any>',
   },
 ]

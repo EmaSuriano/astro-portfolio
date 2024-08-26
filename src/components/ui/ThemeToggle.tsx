@@ -9,10 +9,10 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
 
+type Theme = 'light' | 'dark' | 'system'
+
 export function ModeToggle() {
-  const [theme, setThemeState] = React.useState<'light' | 'dark' | 'system'>(
-    'light',
-  )
+  const [theme, setThemeState] = React.useState<Theme>('light')
 
   React.useEffect(() => {
     const isDarkMode = document.documentElement.classList.contains('dark')
@@ -27,7 +27,7 @@ export function ModeToggle() {
     document.documentElement.classList[isDark ? 'add' : 'remove']('dark')
   }, [theme])
 
-  const onChangeTheme = (theme: any) => {
+  const onChangeTheme = (theme: Theme) => {
     setThemeState(theme)
     localStorage.setItem('theme', theme)
   }

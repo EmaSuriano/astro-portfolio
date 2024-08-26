@@ -1,6 +1,12 @@
 ---
 import { buttonVariants } from '../components/ui/button'
 import { ModeToggle } from '../components/ui/ThemeToggle'
+
+interface Props {
+  title?: string | undefined
+}
+
+const { title } = Astro.props
 ---
 
 <script is:inline>
@@ -25,7 +31,7 @@ import { ModeToggle } from '../components/ui/ThemeToggle'
   >
     <div class="flex gap-6 md:gap-10">
       <a href="/" class="flex items-center space-x-2">
-        <span class="inline-block font-bold">Bue221</span>
+        <span class="inline-block font-bold">{title}</span>
       </a>
     </div>
     <div class="flex flex-1 items-center justify-end space-x-4">
