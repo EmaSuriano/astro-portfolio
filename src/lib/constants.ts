@@ -57,7 +57,7 @@ export const STUDIES = [
 
 export const EXPERIENCE = [
   {
-    company: 'Straico',
+    company: 'asdasd',
     location: 'Bogotá D C, Colombia',
     position: 'Software Engineer',
     start: '2021',
@@ -118,27 +118,14 @@ export const EXPERIENCE = [
       'Development of a dashboard with react admin and chartjs for managing and entering information',
     ],
   },
-  {
-    company: 'BOOKII',
-    location: 'Bogotá D C, Colombia',
-    position: 'Software developer',
-    start: '2019',
-    end: '2021',
-    tasks: [
-      'Productive collaborationwiththebackendteamforthecreationofthe conversationalclubs',
-      'Effective coding of conversational clubs following design guide lines and using the Redux statemanager',
-      'Creation of the Bookii page in Spanish and change of texts in cms',
-      'Generation of static posts using Gatsby and the Contentful cms for the Bookii blog',
-    ],
-  },
 ]
 
 export const PROJECTS = [
   {
-    name: 'asd',
-    description: 'asdas',
+    name: 'Google',
+    description: 'Best search in the web',
     img: 'https://lh3.googleusercontent.com/BbZ8h3M2bBQrBx45U_9-2aR2UO1JirdXlDfyjlXrVOUgEX3-O3b0_UkKaVUfv40tGmZ1bzieQx3m7MR7I71lyiQF=s1280-w1280-h800',
-    website: 'EntryFieldTypes.EntryResourceLink<any>',
+    website: 'https://google.com',
   },
   {
     name: 'asd',
