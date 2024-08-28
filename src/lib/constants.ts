@@ -99,19 +99,19 @@ export const PROJECTS = [
   {
     name: 'Bioestadística básica aplicada, mediada con entorno R.',
     description: 'Analisis de datos biologicos mediante el software R',
-    img: 'https://fcefyn.unc.edu.ar/media/images/Banner_WEB_Diplomatura-_Bioe.eade1377.fill-1600x390-c100.jpg',
+    img: '',
     website: 'https://fcefyn.unc.edu.ar/facultad/secretarias/extension/area-de-formacion-continua/diplomatura-bioestadistica-basica-aplicada-mediada-con-entorno-r/',
   },
   {
     name: 'Ecología Experimental',
     description: 'Analisis de diseños de ensayos y experimentos basados en la ecologia',
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEGM4HBs6JzpFz0PabLrBWf1ogh8-RVuHuiQ&s',
+    img: '',
     website: 'https://bibliotecadigital.exactas.uba.ar/collection/programa/document/programa_n20220856',
   },
   {
     name: 'Interacción planta-insecto. Bases moleculares e implicancias ecológicas y productivas',
     description: 'Estudio de los factores involucrados en la interaccion entre insectos y plantas',
-    img: 'https://www.gardentech.com/-/media/project/oneweb/gardentech/images/blog/plant-pest-detective-identifying-common-plant-pests/plant_pest-bug_bud.jpg',
+    img: '',
     website: 'http://epg.agro.uba.ar/course/interaccion-planta-insecto-bases-moleculares-e-implicancias-ecologicas-y-productivas/',
   },
 ]
