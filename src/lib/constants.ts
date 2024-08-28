@@ -7,136 +7,111 @@ export const loaderAnimation = [
 ]
 
 export const LINKS = {
-  github: 'https://github.com/bue221',
-  linkedin: 'https://www.linkedin.com/in/bue221/',
-  mail: 'mailto:camiloplaza3@gmail.com',
-  instagram: 'https://www.instagram.com/caj_ink/',
-  medium: 'https://ladvace.medium.com/',
-  discord: 'https://discordapp.com/users/163300027618295808',
+  github: 'https://github.com/FranPacelli',
+  linkedin: 'https://www.linkedin.com/in/franco-pacelli/',
+  mail: 'mailto:franpacelli@gmail.com',
+  instagram: 'https://www.instagram.com/frannpacelli/',
 }
 
 // Work Page
 export const WORK: Page = {
-  TITLE: 'Work',
-  DESCRIPTION: 'Places I have worked.',
+  TITLE: 'Trabajo',
+  DESCRIPTION: 'Experiencias de trabajo.',
 }
 
 // Study Page
 export const STUDIES = [
   {
-    title: 'Computer Science',
-    institution: 'Universidad Central',
-    link: 'https://www.ucentral.edu.co/',
-    date: '2019 - 2027',
+    title: 'Doctor en Ciencias Biologicas',
+    institution: 'Universidad de Buenos Aires',
+    link: 'https://exactas.uba.ar',
+    date: '2020 - En curso',
   },
   {
-    title: '...',
-    institution: 'Platzi',
-    link: 'https://platzi.com/',
-    date: '2018 - 2022',
-  },
-  {
-    title: '...',
-    institution: 'Udemy',
-    link: 'https://www.udemy.com/',
-    date: '2018 - 2022',
-  },
-  {
-    title: '...',
-    institution: 'Youtube',
-    link: 'https://www.youtube.com/@midulive',
-    date: '2018 - 2022',
-  },
-  {
-    title: 'Tattoo Artist',
-    institution: 'Tattoo Academy',
-    link: 'https://www.instagram.com/tattoodcacademy/',
-    date: '2024 - 2025',
+    title: 'Ingeniero Agronomo',
+    institution: 'Universidad de Buenos Aires',
+    link: 'https://www.agro.uba.ar',
+    date: '2012 - 2017',
   },
 ]
 
 export const EXPERIENCE = [
   {
-    company: 'asdasd',
-    location: 'Bogotá D C, Colombia',
-    position: 'Software Engineer',
-    start: '2021',
-    link: 'https://straico.com/',
-    end: 'Current',
+    company: 'Green Tech Science SAS',
+    location: 'Buenos Aires, Argentina',
+    position: 'Jefe de campo',
+    start: 'Marzo 2024',
+    link: 'https://www.greentech.science',
+    end: 'Agosto 2024',
     tasks: [
-      'Integration IA services with react and tailwind css',
-      'Development and build of DB with mongoDB',
+      'Supervisar y coordinar las actividades agrícolas en el campo, asegurando el cumplimiento de los estándares de calidad y productividad. 
+      Colaborar con otros departamentos para garantizar la alineación de las estrategias corporativas con las operaciones agrícolas.
+      Realizar análisis y evaluaciones constantes para mejorar los procesos y optimizar los recursos. 
+      Gestionar equipos de trabajo, brindando apoyo y liderazgo para el desarrollo profesional de los colaboradores.',
     ],
   },
   {
-    company: 'Spot2',
-    location: 'Mexico City, Mexico',
-    position: 'Software Engineer',
-    link: 'https://spot2.mx/',
-    start: '2021',
-    end: 'Current',
+    company: 'INTA',
+    location: 'Buenos Aires, Argentina',
+    position: 'Investigadpr',
+    link: 'https://www.argentina.gob.ar/inta',
+    start: 'Marzo 2020',
+    end: 'Abril 2024',
     tasks: [
-      'Development of the Spot2 platform with the use of React, Redux, and Material UI',
-      'Development map with the use of Google Maps API',
-      'Development internal platform with the use of React, Redux, and Material UI',
-      'Testing and debugging',
+      'Estudio del comportamiento de selección de hospedadores en A. fraterculus, considerando el efecto de factores externos
+       e internos a las hembras sobre su preferencia. También la asociación entre la elección de la hembra y el desarrollo de 
+       su progenie en distintas especies frutales, así como otros factores que podrían modular el comportamiento, 
+       como interacciones intraespecíficas e interespecíficas.',
     ],
   },
   {
-    company: 'Imaginamos',
-    link: 'https://imaginamos.com/',
-    location: 'Bogotá D C, Colombia',
-    position: 'Frontend developer',
-    start: '2021',
-    end: '2021',
+    company: 'GeoAgris',
+    link: 'https://geoagris.com',
+    location: 'Buenos Aires, Argentina',
+    position: 'Ingeniero Agronomo',
+    start: 'Junio 2017',
+    end: 'Mayo 2020',
     tasks: [
-      'Development of the Imaginamos platform with the use of React, Redux, and Material UI',
-      'Work in ETB project with the use of React, Redux, and Material UI',
+      'Manejo de Sistemas de Información Geográfica y Teledetección. 
+       Procesamiento y Análisis de proyectos de Agricultura de Precisión; análisis y elaboración de mapas de heterogeneidad espacial, 
+       prescripciones de aplicación variable de insumos y gestión de calidad de siembra. 
+       Tareas de sistemas GIS. Ambientación de superficies mediante análisis de imágenes satelitales.
+       Sector Comercial. Contacto con los clientes - solucion de problemas - y adquisicion de nuevos clientes.',
     ],
   },
   {
-    company: 'INETUM',
-    location: 'Bogotá D C, Colombia',
-    position: 'Frontend developer',
-    start: '2021',
-    link: 'https://www.inetum.com/es',
-    end: '2021',
+    company: 'Facultad de Agronomia',
+    location: 'Buenos Aires, Argentina',
+    position: 'Ayudante Ad Honorem',
+    start: '2014',
+    link: 'https://www.agro.uba.ar',
+    end: '2017',
     tasks: [
-      'Support in the QA area and bug review',
-      'Use of SCRUM methodology',
-      'Claro projects with the use of frameworks and libraries such as react and angular',
-      'Use of redux toolkit as aproposal which allowed a shorter development time when using this tool',
-    ],
-  },
-  {
-    company: 'S I G',
-    location: 'Bogotá D C, Colombia',
-    position: 'Software developer',
-    start: '2021',
-    end: '2021',
-    tasks: [
-      'Development of a dashboard with react admin and chartjs for managing and entering information',
+      'Ayudar en clases al profesor, despejar dudas a los alumnos, ordenar el material, colaborar en exámenes finales.
+       Compromiso asumido en tiempo horario destinado a investigaciones de la UBA. 
+       La investigación realizada en el transcurso de la beca es la misma que finalmente se presentara como trabajo de tesis.
+       La tesis finalizo luego de cumplida esta beca estimulo.',
     ],
   },
 ]
 
 export const PROJECTS = [
   {
-    name: 'Google',
-    description: 'Best search in the web',
-    img: 'https://lh3.googleusercontent.com/BbZ8h3M2bBQrBx45U_9-2aR2UO1JirdXlDfyjlXrVOUgEX3-O3b0_UkKaVUfv40tGmZ1bzieQx3m7MR7I71lyiQF=s1280-w1280-h800',
-    website: 'https://google.com',
+    name: 'Bioestadística básica aplicada, mediada con entorno R.',
+    description: 'Analisis de datos biologicos mediante el software R',
+    img: 'https://fcefyn.unc.edu.ar/media/images/Banner_WEB_Diplomatura-_Bioe.eade1377.fill-1600x390-c100.jpg',
+    website: 'https://fcefyn.unc.edu.ar/facultad/secretarias/extension/area-de-formacion-continua/diplomatura-bioestadistica-basica-aplicada-mediada-con-entorno-r/',
   },
   {
-    name: 'asd',
-    description: 'asdas',
-    img: 'https://lh3.googleusercontent.com/BbZ8h3M2bBQrBx45U_9-2aR2UO1JirdXlDfyjlXrVOUgEX3-O3b0_UkKaVUfv40tGmZ1bzieQx3m7MR7I71lyiQF=s1280-w1280-h800',
-    website: 'EntryFieldTypes.EntryResourceLink<any>',
+    name: 'Ecología Experimental',
+    description: 'Analisis de diseños de ensayos y experimentos basados en la ecologia',
+    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEGM4HBs6JzpFz0PabLrBWf1ogh8-RVuHuiQ&s',
+    website: 'https://bibliotecadigital.exactas.uba.ar/collection/programa/document/programa_n20220856',
   },
   {
-    name: 'asd',
-    description: 'asdas',
-    img: 'https://lh3.googleusercontent.com/BbZ8h3M2bBQrBx45U_9-2aR2UO1JirdXlDfyjlXrVOUgEX3-O3b0_UkKaVUfv40tGmZ1bzieQx3m7MR7I71lyiQF=s1280-w1280-h800',
-    website: 'EntryFieldTypes.EntryResourceLink<any>',
+    name: 'Interacción planta-insecto. Bases moleculares e implicancias ecológicas y productivas',
+    description: 'Estudio de los factores involucrados en la interaccion entre insectos y plantas',
+    img: 'https://www.gardentech.com/-/media/project/oneweb/gardentech/images/blog/plant-pest-detective-identifying-common-plant-pests/plant_pest-bug_bud.jpg',
+    website: 'http://epg.agro.uba.ar/course/interaccion-planta-insecto-bases-moleculares-e-implicancias-ecologicas-y-productivas/',
   },
 ]
