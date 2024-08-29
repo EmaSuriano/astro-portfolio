@@ -4,21 +4,22 @@ import BaseLayout from '../layouts/BaseLayout.astro'
 import { buttonVariants } from '../components/ui/button'
 ---
 
-<BaseLayout
-  title="404 - Not Found"
-  description="404 Error — this page was not found"
->
+<BaseLayout title="Franco Pacelli" description="Página no encontrada">
   <main class="flex h-[80vh] flex-auto">
     <div class="flex flex-col items-center justify-center px-8">
-      <img src={`${import.meta.env.BASE_URL}/me_hello.png`} alt="404" class="mb-8 size-64" />
-      <p class="text-sm text-muted-foreground">404</p>
       <h1 class="text-4xl font-extrabold tracking-tight lg:text-5xl">
-        Pagina no encontrada
+        Página no encontrada
       </h1>
       <p class="mb-4 leading-7 [&:not(:first-child)]:mt-6">
-        Perdon, no encontramos la pagina que estas buscando.
+        Perdón, no encontramos la pagina que estas buscando.
       </p>
-      <a href={import.meta.env.BASE_URL} rel="noreferrer" class={buttonVariants()}> Go back home</a>
+      <a
+        href={import.meta.env.BASE_URL}
+        rel="noreferrer"
+        class={buttonVariants()}
+      >
+        Volver al inicio</a
+      >
     </div>
   </main>
 </BaseLayout>

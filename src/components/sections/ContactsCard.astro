@@ -1,22 +1,22 @@
 ---
 import Card from '../Card.astro'
-import { LINKS } from '../../lib/constants'
+import { LINKS, VALUES } from '../../lib/constants'
 ---
 
-<Card colSpan="md:col-span-1" rowSpan="md:row-span-4">
+<Card colSpan="md:col-span-1" rowSpan="md:row-span-2">
   <div class="h-full">
     <header class="flex items-center">
-      <h1 class="text-xl font-bold text-foreground">
-        Trabajemos juntos !
-      </h1>
+      <h1 class="text-xl font-bold text-foreground">Trabajemos juntos!</h1>
     </header>
-    <address class="mt-4 flex flex-col">
-      <h2 class="text-gray-500">Detalles de Contacto </h2>
-      <p>franpacelli@gmail.com</p>
-      <p>  Buenos Aires, Argentina </p>
-    </address>
+
+    <div class="mt-4 flex flex-col">
+      <h2 class="text-gray-500">Detalles de Contacto</h2>
+      <a class="underline" href={`mailto:${LINKS.mail}`}>{VALUES.mail}</a>
+      <p>{VALUES.address}</p>
+    </div>
+
     <div class="mt-4 flex w-fit flex-col">
-      <h2 class="text-gray-500">Socials</h2>
+      <h2 class="text-gray-500">Redes Sociales</h2>
       <ul>
         <li>
           <a href={LINKS.linkedin} target="_blank">Linkedin</a>

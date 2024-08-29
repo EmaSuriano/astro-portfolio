@@ -3,20 +3,22 @@ import Card from '../Card.astro'
 import { Button } from '../ui/button'
 import { LINKS } from '../../lib/constants'
 import { Linkedin, Github, Mail } from 'lucide-react'
+import { Image } from 'astro:assets'
 ---
 
-<Card colSpan="md:col-span-3" rowSpan="md:row-span-4">
+<Card colSpan="md:col-span-3" rowSpan="md:row-span-2">
   <div class="flex h-full w-full">
     <div class="flex flex-col justify-between gap-4 md:max-h-[300px]">
       <div class="flex h-full flex-col">
         <h6 class="m-0 text-sm font-light text-gray-500">Bienvenido</h6>
         <p class="m-0 text-xl font-light">
           Hola, soy <b class="font-bold">Franco Pacelli</b>, Ingeniero Agronomo
-          de la UBA. Me considero una persona con gran dedicación y pasión por mi carrera, busco aprender, 
-          superar nuevos desafíos, para crecer y expandirme dentro de mi profesión. 
-          El doctorado me ha permitido aprender y fortalecer mis capacidades, desarrollar 
-          el analisis de datos y generar una mirada critica e innovadora frente a los 
-          diseños experimentales.
+          de la UBA. Me considero una persona con gran dedicación y pasión por
+          mi carrera, busco aprender, superar nuevos desafíos, para crecer y
+          expandirme dentro de mi profesión. El doctorado me ha permitido
+          aprender y fortalecer mis capacidades, desarrollar el analisis de
+          datos y generar una mirada critica e innovadora frente a los diseños
+          experimentales.
         </p>
       </div>
       <div class="flex gap-4">
@@ -34,7 +36,7 @@ import { Linkedin, Github, Mail } from 'lucide-react'
         </a>
       </div>
     </div>
-    <img
+    <Image
       width="300"
       height="300"
       src={`${import.meta.env.BASE_URL}/me.png`}

@@ -13,9 +13,10 @@ import { EXPERIENCE } from '../lib/constants'
       <h2
         class="scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0"
       >
-        {WORK.TITLE}
+        Experencia
       </h2>
     </TopLayout>
+
     <BottomLayout>
       <ul>
         {
@@ -33,7 +34,7 @@ import { EXPERIENCE } from '../lib/constants'
               <div class="text-sm font-semibold">{entry.position}</div>
               <article class="prose dark:prose-invert">
                 {entry.tasks.map((i) => (
-                  <>{i}</>
+                  <p>{i}</p>
                 ))}
               </article>
             </li>

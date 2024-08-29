@@ -6,16 +6,24 @@ export const loaderAnimation = [
   { easing: 'ease-out' },
 ]
 
+export const VALUES = {
+  name: 'Franco Pacelli',
+  description:
+    'Hola, soy Franco, un profesional apasionado por enteder el mundo natural y su funcionamiento',
+  mail: 'franpacelli@gmail.com',
+  address: 'Buenos Aires, Argentina',
+}
+
 export const LINKS = {
   github: 'https://github.com/FranPacelli',
   linkedin: 'https://www.linkedin.com/in/franco-pacelli/',
-  mail: 'mailto:franpacelli@gmail.com',
+  mail: `mailto:${VALUES.mail}`,
   instagram: 'https://www.instagram.com/frannpacelli/',
 }
 
 // Work Page
 export const WORK: Page = {
-  TITLE: 'Trabajo',
+  TITLE: 'Franco Pacelli - Experencia',
   DESCRIPTION: 'Experiencias de trabajo.',
 }
 
@@ -44,10 +52,10 @@ export const EXPERIENCE = [
     link: 'https://www.greentech.science',
     end: 'Agosto 2024',
     tasks: [
-      'Supervisar y coordinar las actividades agrícolas en el campo, asegurando el cumplimiento de los estándares de calidad y productividad. 
-      Colaborar con otros departamentos para garantizar la alineación de las estrategias corporativas con las operaciones agrícolas.
-      Realizar análisis y evaluaciones constantes para mejorar los procesos y optimizar los recursos. 
-      Gestionar equipos de trabajo, brindando apoyo y liderazgo para el desarrollo profesional de los colaboradores.',
+      'Supervisar y coordinar las actividades agrícolas en el campo, asegurando el cumplimiento de los estándares de calidad y productividad. ',
+      'Colaborar con otros departamentos para garantizar la alineación de las estrategias corporativas con las operaciones agrícolas.',
+      'Realizar análisis y evaluaciones constantes para mejorar los procesos y optimizar los recursos.',
+      'Gestionar equipos de trabajo, brindando apoyo y liderazgo para el desarrollo profesional de los colaboradores.',
     ],
   },
   {
@@ -58,10 +66,10 @@ export const EXPERIENCE = [
     start: 'Marzo 2020',
     end: 'Abril 2024',
     tasks: [
-      'Estudio del comportamiento de selección de hospedadores en A. fraterculus, considerando el efecto de factores externos
+      `Estudio del comportamiento de selección de hospedadores en A. fraterculus, considerando el efecto de factores externos
        e internos a las hembras sobre su preferencia. También la asociación entre la elección de la hembra y el desarrollo de 
        su progenie en distintas especies frutales, así como otros factores que podrían modular el comportamiento, 
-       como interacciones intraespecíficas e interespecíficas.',
+       como interacciones intraespecíficas e interespecíficas.`,
     ],
   },
   {
@@ -72,11 +80,11 @@ export const EXPERIENCE = [
     start: 'Junio 2017',
     end: 'Mayo 2020',
     tasks: [
-      'Manejo de Sistemas de Información Geográfica y Teledetección. 
-       Procesamiento y Análisis de proyectos de Agricultura de Precisión; análisis y elaboración de mapas de heterogeneidad espacial, 
-       prescripciones de aplicación variable de insumos y gestión de calidad de siembra. 
-       Tareas de sistemas GIS. Ambientación de superficies mediante análisis de imágenes satelitales.
-       Sector Comercial. Contacto con los clientes - solucion de problemas - y adquisicion de nuevos clientes.',
+      'Manejo de Sistemas de Información Geográfica y Teledetección.',
+      `Procesamiento y Análisis de proyectos de Agricultura de Precisión; análisis y elaboración de mapas de heterogeneidad espacial, 
+       prescripciones de aplicación variable de insumos y gestión de calidad de siembra.`,
+      'Tareas de sistemas GIS. Ambientación de superficies mediante análisis de imágenes satelitales.',
+      'Sector Comercial. Contacto con los clientes - solucion de problemas - y adquisicion de nuevos clientes.',
     ],
   },
   {
@@ -87,10 +95,10 @@ export const EXPERIENCE = [
     link: 'https://www.agro.uba.ar',
     end: '2017',
     tasks: [
-      'Ayudar en clases al profesor, despejar dudas a los alumnos, ordenar el material, colaborar en exámenes finales.
-       Compromiso asumido en tiempo horario destinado a investigaciones de la UBA. 
-       La investigación realizada en el transcurso de la beca es la misma que finalmente se presentara como trabajo de tesis.
-       La tesis finalizo luego de cumplida esta beca estimulo.',
+      'Ayudar en clases al profesor, despejar dudas a los alumnos, ordenar el material, colaborar en exámenes finales.',
+      'Compromiso asumido en tiempo horario destinado a investigaciones de la UBA.',
+      'La investigación realizada en el transcurso de la beca es la misma que finalmente se presentara como trabajo de tesis.',
+      'La tesis finalizo luego de cumplida esta beca estimulo.',
     ],
   },
 ]
@@ -99,19 +107,24 @@ export const PROJECTS = [
   {
     name: 'Bioestadística básica aplicada, mediada con entorno R.',
     description: 'Analisis de datos biologicos mediante el software R',
-    img: '',
-    website: 'https://fcefyn.unc.edu.ar/facultad/secretarias/extension/area-de-formacion-continua/diplomatura-bioestadistica-basica-aplicada-mediada-con-entorno-r/',
+    img: `${import.meta.env.BASE_URL}/projects/fcefyn.png`,
+    website:
+      'https://fcefyn.unc.edu.ar/facultad/secretarias/extension/area-de-formacion-continua/diplomatura-bioestadistica-basica-aplicada-mediada-con-entorno-r/',
   },
   {
     name: 'Ecología Experimental',
-    description: 'Analisis de diseños de ensayos y experimentos basados en la ecologia',
-    img: '',
-    website: 'https://bibliotecadigital.exactas.uba.ar/collection/programa/document/programa_n20220856',
+    description:
+      'Analisis de diseños de ensayos y experimentos basados en la ecologia',
+    img: `${import.meta.env.BASE_URL}/projects/exactas.png`,
+    website:
+      'https://bibliotecadigital.exactas.uba.ar/collection/programa/document/programa_n20220856',
   },
   {
     name: 'Interacción planta-insecto. Bases moleculares e implicancias ecológicas y productivas',
-    description: 'Estudio de los factores involucrados en la interaccion entre insectos y plantas',
-    img: '',
-    website: 'http://epg.agro.uba.ar/course/interaccion-planta-insecto-bases-moleculares-e-implicancias-ecologicas-y-productivas/',
+    description:
+      'Estudio de los factores involucrados en la interaccion entre insectos y plantas',
+    img: `${import.meta.env.BASE_URL}/projects/agro.png`,
+    website:
+      'http://epg.agro.uba.ar/course/interaccion-planta-insecto-bases-moleculares-e-implicancias-ecologicas-y-productivas/',
   },
 ]

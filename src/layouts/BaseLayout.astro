@@ -3,6 +3,7 @@ import { ViewTransitions } from 'astro:transitions'
 import HeadSEO from '../components/HeadSEO.astro'
 import Footer from '../components/Footer.astro'
 import Header from '../components/Header.astro'
+import { VALUES } from '../lib/constants'
 
 interface Props {
   title?: string | undefined
@@ -10,7 +11,11 @@ interface Props {
   ogImage?: URL | undefined
 }
 
-const { title, description, ogImage } = Astro.props
+const {
+  title = VALUES.name,
+  description = VALUES.description,
+  ogImage,
+} = Astro.props
 ---
 
 <html lang="en">
