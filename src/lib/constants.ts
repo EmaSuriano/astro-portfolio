@@ -107,21 +107,19 @@ export const PROJECTS = [
   {
     name: 'Representante Comercial de Apitrak (Biopolin).',
     description: 'Promocion, venta y soporte tecnico del producto ApiTrak',
-    img: `${import.meta.env.BASE_URL}/projects/fcefyn.png`,
-    website:'https://apitrak.com.ar',
+    img: `${import.meta.env.BASE_URL}/projects/api-trak.png`,
+    website: 'https://apitrak.com.ar',
   },
   {
     name: 'Desarrollo de fertilizantes',
-    description:
-      'Analisis y desarrollo de nuevos fertilizantes y enmiendas.',
-    img: `${import.meta.env.BASE_URL}/projects/exactas.png`,
-    website:'https://seitonag.com',
+    description: 'Analisis y desarrollo de nuevos fertilizantes y enmiendas.',
+    img: `${import.meta.env.BASE_URL}/projects/seiton-ag.png`,
+    website: 'https://seitonag.com',
   },
   {
     name: 'Docencia e Investigacion',
-    description:
-      'Docencia e investigacion en la catedra de apicultura.',
-    img: `${import.meta.env.BASE_URL}/projects/agro.png`,
+    description: 'Docencia e investigacion en la catedra de apicultura.',
+    img: `${import.meta.env.BASE_URL}/projects/uba-agro.png`,
     website: 'https://www.agro.uba.ar/catedras/acya',
   },
 ]
