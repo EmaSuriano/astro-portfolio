@@ -61,7 +61,7 @@ export const EXPERIENCE = [
   {
     company: 'INTA',
     location: 'Buenos Aires, Argentina',
-    position: 'Investigadpr',
+    position: 'Investigador',
     link: 'https://www.argentina.gob.ar/inta',
     start: 'Marzo 2020',
     end: 'Abril 2024',
@@ -105,26 +105,23 @@ export const EXPERIENCE = [
 
 export const PROJECTS = [
   {
-    name: 'Bioestadística básica aplicada, mediada con entorno R.',
-    description: 'Analisis de datos biologicos mediante el software R',
+    name: 'Representante Comercial de Apitrak (Biopolin).',
+    description: 'Promocion, venta y soporte tecnico del producto ApiTrak',
     img: `${import.meta.env.BASE_URL}/projects/fcefyn.png`,
-    website:
-      'https://fcefyn.unc.edu.ar/facultad/secretarias/extension/area-de-formacion-continua/diplomatura-bioestadistica-basica-aplicada-mediada-con-entorno-r/',
+    website:'https://apitrak.com.ar',
   },
   {
-    name: 'Ecología Experimental',
+    name: 'Desarrollo de fertilizantes',
     description:
-      'Analisis de diseños de ensayos y experimentos basados en la ecologia',
+      'Analisis y desarrollo de nuevos fertilizantes y enmiendas.',
     img: `${import.meta.env.BASE_URL}/projects/exactas.png`,
-    website:
-      'https://bibliotecadigital.exactas.uba.ar/collection/programa/document/programa_n20220856',
+    website:'https://seitonag.com',
   },
   {
-    name: 'Interacción planta-insecto. Bases moleculares e implicancias ecológicas y productivas',
+    name: 'Docencia e Investigacion',
     description:
-      'Estudio de los factores involucrados en la interaccion entre insectos y plantas',
+      'Docencia e investigacion en la catedra de apicultura.',
     img: `${import.meta.env.BASE_URL}/projects/agro.png`,
-    website:
-      'http://epg.agro.uba.ar/course/interaccion-planta-insecto-bases-moleculares-e-implicancias-ecologicas-y-productivas/',
+    website: 'https://www.agro.uba.ar/catedras/acya',
   },
 ]
